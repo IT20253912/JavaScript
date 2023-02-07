@@ -1,1 +1,11 @@
 const and veriable different - 
+        const -  cant change value (const)
+        veriable - change value any time (var , let)
+
+prompt - get user value
+        ex :-
+            let yname = prompt('Enter User value')
+
+confirm - tru/false
+        ex:-
+            let yname = confirm('Are you amila')
