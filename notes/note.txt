@@ -9,3 +9,22 @@ prompt - get user value
 confirm - tru/false
         ex:-
             let yname = confirm('Are you amila')
+
+print object using console - 
+        ex:- 
+                let a ={
+                        name:'name1',
+                        age:12,
+                }
+                let b ={
+                        name:'name2'
+                        age:13,
+                }
+                let c ={
+                        name:'name3',
+                        age:14,
+                }
+
+                console.log(a)
+                console.log({a.b.c})
+                console.table({a,b,c})
