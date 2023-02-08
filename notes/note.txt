@@ -28,3 +28,26 @@ print object using console -
                 console.log(a)
                 console.log({a.b.c})
                 console.table({a,b,c})
+
+find variable type - 
+        ex -
+                let a = 123
+                console.log(typeof a)
+
+
+convert data type - 
+        ex - 
+                let a = 123
+                console.log(typeof String(a))
+
+unary - 
+        ex:-
+                let a = -2
+                let b = +2
+
+binary - 
+        ex:- 
+                let a = 2+3
+
+
+

@@ -23,4 +23,10 @@ console.log({a,b,c})
 console.table({a,b,c})
 
 
+console.log(typeof a)
 
+let nu = 1234;
+
+console.log(typeof nu)
+
+console.log(typeof String(nu))  
