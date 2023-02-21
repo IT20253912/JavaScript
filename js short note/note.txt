@@ -1,0 +1,92 @@
+1. Write javascript on html body :
+
+<script type="text/javascript">
+    // write java script code
+</script>
+
+2. Print some thing on console :
+
+    console.log("test console print value");
+
+    ex:-
+        <script type="text/javascript">
+            console.log("test console print value");
+        </script>
+     
+3. Alert in javascript : 
+    
+        alert('This is alert')
+
+        ex:- 
+            <script type="text/javascript">
+                alert('This is alert')
+            </script>
+
+4. add external javascript file : 
+
+    <script src = "./location" type ="text/javascript">
+    </script>
+
+5. veriable vs constant 
+
+    veriable : change value any place in code
+    constant : can't change value
+
+6. Get user input value : 
+
+    let name = prompt('Enter your name');
+
+    6.1 Display prompt value : 
+        console.log(name);
+
+7. True or false alert (boolean value): 
+
+    let name = confirm('Are you Amila ? ');
+
+    7.1 Display prompt value : 
+        console.log(name);
+
+8. change html (html page) : 
+
+    document.write('chathu');
+
+9. Show error in console :
+
+    console.error('Error test');
+
+10. Show warring on console : 
+
+    console.warn('warrning test')
+
+11. Create object : 
+
+    let a = {
+        name = 'name',
+        age = 12,
+    }
+    let b = {
+        name = 'name',
+        age = 12,
+    }
+    let c = {
+        name = 'name',
+        age = 12,
+    }
+
+12. Display object :
+    12.1 Display one Object : 
+        console.log(a);
+
+    12.2 Display object one by one : 
+        console.log(a);
+        console.log(b);
+        console.log(c);
+
+    12.3 Display all object : 
+        console.log({a,b,c});
+
+    12.4 Display like table : 
+        console.table({a,b,c});
+
+
+
