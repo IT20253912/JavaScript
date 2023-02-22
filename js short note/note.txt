@@ -88,5 +88,42 @@
     12.4 Display like table : 
         console.table({a,b,c});
 
+13. find variable data type : 
+
+    ex : 
+        let a = 1234;
+
+        console.log(typeof a);
+
+    13.1 Data types : 
+        let a = 'chathu'; //string
+        let b = 1234; //number
+        let c = true; //boolean
+        let d = 234n; //bigint
+        let e; //undefine
+        let f = null; //object
+
+14. Data type converting : 
+
+    14.1 
+        b = String(b);
+
+        Nan(not a number ) we can't converted strng to numbers;
+
+    14.2 convert real number to input
+
+            b = parseInt(a);
+
+15. meths opeerators : 
+
+    let a = 5;
+    let b = 3;
+ 
+    console.log(a+b)
+    console.log(a-b)
+    console.log(a*b)
+    console.log(a/b)
+    console.log(a%b) //mod
+    console.log(a**2) //power
 
 
