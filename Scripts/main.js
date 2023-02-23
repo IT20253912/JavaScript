@@ -118,21 +118,37 @@
 // b[2] = "three"
 // console.log(b);
 
-let a = ['saman',2,3.4,[1,2,3]];
+// let a = ['saman',2,3.4,[1,2,3]];
 
-let b = "Amila Upul Kumara".split(' ');
+// let b = "Amila Upul Kumara".split(' ');
 
 // b.unshift('Amila')
 // b.push('aa')
 
 // console.log(b)
 
-console.log(a)
+// console.log(a)
 
 
 
 
 
-console.log(a.shift())
+// console.log(a.shift())
 
 
+
+// ------------------------------------------------------
+
+let a = {
+    name:'Amila Upul',
+    age:23,
+    canFly:true,
+    language:['java','javascript','c','c++'],
+    city:{
+        address1:'adddressOne',
+        address2:'addrssTwo',
+    },
+
+};
+
+console.log(a.city.address1)
