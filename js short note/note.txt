@@ -127,3 +127,170 @@
     console.log(a**2) //power
 
 
+16. String :
+
+    16.1 - call string index
+
+        ex: 
+            let a = 'Amila Upul Kumara';
+            console.log(a[11]);
+
+            output - K
+
+    16.2 - Sub String (Get String range)
+
+        ex: 
+             let a = 'Amila Upul Kumara';
+             console.log(a.substring(0,3));
+
+             output - Ami
+
+    16.3 - Split by any charcter
+
+        ex:
+            let a = 'Amila Upul Kumara';
+            console.log(a.split(' '));
+
+            output - ['Amila', 'Upul', 'Kumara']
+
+    16.4 - find last index
+
+        ex:
+            let a = 'Amila Upul Kumara';
+            console.log(a.lastIndexOf('a'))
+
+            output - 16
+
+    16.5 - find chrcter by index 
+
+        ex:
+            let a = 'Amila Upul Kumara';
+            console.log(a.charAt('0'));
+
+            output - A
+
+    16.6 - find ending value or index ( true / false )
+
+        ex:
+            ex 01 - 
+                let a = 'Amila Upul Kumara';
+                console.log(a.endsWith('12'));
+
+                output - false
+
+            ex 02 - 
+                let a = 'Amila Upul Kumara';
+                console.log(a.endsWith('a'));
+
+                output - true
+
+             ex 03 - 
+                let a = 'Amila Upul Kumara';
+                console.log(a.endsWith('Kumara'));
+
+                output - true
+
+            ex 04 - 
+                let a = 'Amila Upul Kumara';
+                console.log(a.endsWith('kumara'));
+
+                output - false
+
+    16.7 - replace word
+
+            ex: 
+                let a = 'Amila Upul Kumara';
+                console.log(a.replace('Kumara','Test'));
+
+                output - Amila Upul Test
+        
+    16.7 - couunt lenght
+
+            ex: 
+                let a = 'Amila Upul Kumara';
+                console.log(a.lenght);
+
+                output - 17
+
+
+17. Array
+
+    17.1 - create and display Array
+        
+        ex:
+            let d = ['Amila',12,3.4,true,[1,2,3]];
+            console.log(d);
+
+            output - (4) ['saman', 2, 3.4, Array(3)]
+
+    17.2 - call array index 
+
+        ex:
+            let d = ['Amila',12,3.4,true,[1,2,3]];
+            console.log(d[0]);
+
+            output - saman
+
+    17.3 - call array in array 
+
+        ex: 
+            let d = ['Amila',12,3.4,true,[1,2,3]];
+            console.log(d[4][0]);
+
+            output - 1
+
+    17.4 - find charcter index
+
+        ex:
+            let d = ['Amila',12,3.4,true,[1,2,3]];
+            console.log(d.indexOf(true));
+
+            output - 3
+
+    17.5 - revers array
+
+        ex:
+            let d = ['Amila',12,3.4,true,[1,2,3]];
+            console.log(d.revers());
+
+            output - [[1,2,3],true,3.4,12,'Amila']
+
+    17.6  - String to array
+
+        ex:
+            let a = "Amila Upul Kumara";
+            console.log(a.split(' '));
+
+            output -  ['Amila', 'Upul', 'Kumara']
+
+    17.7 - combaind two arrays
+
+        ex:
+            let a = ['Amila',12,3.4,true,[1,2,3]];
+            let b = "Amila Upul Kumara".split(' ');
+            
+            console.log(a.concat(b));
+
+            output -  ['Amila',12,3.4,true,[1,2,3],'Amila', 'Upul', 'Kumara']
+
+    17.8 - replace array elements
+
+        ex:
+            let a = "Amila Upul Kumara".split(' ');
+            a[0] = "saman";
+            console.log(a);
+
+            output - saman Upul Kumara
+
+
+
+            
+
+
+
+
+                
+
+
+
+
