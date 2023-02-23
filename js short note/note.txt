@@ -282,6 +282,15 @@
 
             output - saman Upul Kumara
 
+        ex: 
+            let a = "Amila Upul Kumara".split(' ');
+
+            a.unshift('AUK');
+            a.push(false);
+            
+
+            
+
 
 
             

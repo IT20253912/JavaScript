@@ -116,6 +116,23 @@
 // b[0] = "one"
 // b[1] = "two"
 // b[2] = "three"
-// console.log(b)
+// console.log(b);
+
 let a = ['saman',2,3.4,[1,2,3]];
+
 let b = "Amila Upul Kumara".split(' ');
+
+// b.unshift('Amila')
+// b.push('aa')
+
+// console.log(b)
+
+console.log(a)
+
+a.shift();
+
+
+
+console.log(a)
+
+
