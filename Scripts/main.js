@@ -129,10 +129,10 @@ let b = "Amila Upul Kumara".split(' ');
 
 console.log(a)
 
-a.shift();
 
 
 
-console.log(a)
+
+console.log(a.shift())
 
 

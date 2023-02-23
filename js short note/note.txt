@@ -285,9 +285,26 @@
         ex: 
             let a = "Amila Upul Kumara".split(' ');
 
-            a.unshift('AUK');
-            a.push(false);
-            
+            a.unshift('AUK'); //add value to array begining
+            a.push(false); // add value to end of array
+
+    17.9 - return some value on array (first value remove)
+
+        ex:
+            let a = "Amila Upul Kumara".split();
+
+            console.log(a.shift());
+
+            output - Amila
+    17.10 - return some value on array (last value remove)
+
+        ex:
+            let a = "Amila Upul Kumara".split();
+
+            console.log(a.pop());
+
+            output - Kumara
+
 
             
 
