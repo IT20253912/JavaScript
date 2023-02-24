@@ -151,4 +151,6 @@ let a = {
 
 };
 
-console.log(a.city.address1)
+a.class = "classtest"
+
+console.log(a)

@@ -312,6 +312,62 @@
 objects
 
 -----------------------------------------------------------------------
+18 . display Object
+
+    ex:
+        let a = {
+            name:'Amila Upul',
+            age:23,
+            canFly:true,
+            language:['java','javascript','c','c++'],
+            city:{
+                address1:'adddressOne',
+                address2:'addrssTwo',
+                },
+
+            };
+
+        console.log(a)
+        //output - {name: 'Amila Upul', age: 23, canFly: true, language: Array(4), city: {…}}
+
+        console.log(a.name);
+        //output - Amila Upul 
+
+        console.log(a.language[0]);
+        //output - java
+
+        console.log(a.city.address1);
+        //output - adddressOne   
+
+
+19. Add or Update value
+
+    ex:
+        let a = {
+            name:'Amila Upul',
+            age:23,
+            canFly:true,
+            language:['java','javascript','c','c++'],
+            city:{
+                address1:'adddressOne',
+                address2:'addrssTwo',
+                },
+
+            };
+
+            //add value
+            a.class = "class test";
+
+            //update value
+            a.language = "language test";
+
+
+-----------------------------------------------------------------------
+
+functions
+
+-----------------------------------------------------------------------
+
 
 
 
