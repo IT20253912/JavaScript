@@ -139,18 +139,36 @@
 
 // ------------------------------------------------------
 
-let a = {
-    name:'Amila Upul',
-    age:23,
-    canFly:true,
-    language:['java','javascript','c','c++'],
-    city:{
-        address1:'adddressOne',
-        address2:'addrssTwo',
-    },
+// let a = {
+//     name:'Amila Upul',
+//     age:23,
+//     canFly:true,
+//     language:['java','javascript','c','c++'],
+//     city:{
+//         address1:'adddressOne',
+//         address2:'addrssTwo',
+//     },
 
-};
+// };
 
-a.class = "classtest"
+// a.class = "classtest"
 
-console.log(a)
+// console.log(a)
+
+// function displayName()  {
+//     console.log('test name');
+// }
+
+// displayName();
+
+// function displayName(age){
+//     let name = prompt('enter name')
+//     console.log(`Your name is  and age is ${age}`);
+   
+//     return age; 
+// }
+
+// displayName(23);
+// displayName(24);
+
+// console.log(displayName(89));

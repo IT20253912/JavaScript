@@ -368,23 +368,55 @@ functions
 
 -----------------------------------------------------------------------
 
+20. Create and call functions
 
+    ex:
+        function displayName() {
+            console.log('test name');
+        }
 
+        displayName();
 
+        output - test name
 
+20.1 use paramters
 
+    ex:
+        function displayName(name,age) {
+            console.log(`Your name is ${name} age is ${}`);
+        }
 
-            
+        displayName("test name1",23);
+        displayName("test name2",24);
 
+        output - 
+            Your name is test name1 age is 23
+            Your name is test name2 age is 24
 
+20.2 use return 
 
-            
+    ex 1:
+        function name (name,age) {
+            console.log(`Your name is ${name} age is ${}`);
+            return age;
+        }
 
+        displayName("test name1",23);
 
+        output - 
+            Your name is test name1 age is 23
 
+    ex 2:
+        function name (name,age) {
+            console.log(`Your name is ${name} age is ${}`);
+            return age;
+        }
 
-                
+        console.log(displayName("test name1",23));
 
+        output - 
+            Your name is test name1 age is 23
+            23            
 
 
 
